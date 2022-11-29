@@ -1,0 +1,94 @@
+.discours {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    padding: 2rem;
+  }
+  .discour__container {
+    width: 90%;
+    height: 42rem;
+    background: linear-gradient(
+      274.98deg,
+      #6d9dc5 38.85%,
+      rgba(109, 157, 197, 0) 76.47%
+    );
+    border-radius: 3rem;
+    padding-top: 3rem;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-around;
+  }
+  
+  .discours__image {
+    width: 100%;
+    height: 100%;
+    align-self: baseline;
+  }
+  .discours__text {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    margin-right: 3rem;
+  }
+  .guillemets {
+    font-size: 7rem;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    text-align: left;
+    
+    
+  }
+
+  .guillemets1 {
+    font-size: 7rem;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    text-align: right;
+    
+    
+  }
+  .discours__idriss {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .discours__role {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .discours__nom {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: white;
+  
+  }
+  .discours__fonction {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    padding-top: .5rem;
+    color: white;
+  }
+
+  .atouts__title {
+    
+    align-self: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color:rgba(13, 33, 73, 0.8);
+
+  }

@@ -1,0 +1,131 @@
+.equipe {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title {
+    flex: 1;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card {
+    flex: 4;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+  .title__big {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: rgba(13, 33, 73, 0.8);
+    margin-bottom: 1rem;
+  }
+  .title__small {
+    font-size: 1.8rem;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    padding-bottom: 6rem;
+  }
+  .card__item {
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card__item___image {
+     flex: 2;
+     width: 100%;
+     height: 40%;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+  .card__item__name {
+    flex: 1.4;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding:1rem ;
+    text-align: center;
+  }
+  .card__item__button {
+    flex: 1;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    width: 90%;
+    height: 90%;  
+  }
+  .name {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .poste {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    
+  }
+  .yess {
+    background-color: #ee6352;
+    border-radius: 20px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+  }
+  
+  .yess:focus,
+  .yess:hover {
+    background-color: rgba(13, 33, 73, 0.8);
+    color: #fff;
+  }

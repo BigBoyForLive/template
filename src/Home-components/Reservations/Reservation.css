@@ -1,0 +1,113 @@
+.metier {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+}
+.metier__heading {
+  width: 100vw;
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.metier__body {
+  width: 100vw;
+  height: 85vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin-bottom: 1rem;
+  flex-direction: row;
+}
+.metier__heading__title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: rgba(13, 33, 73, 0.8);
+}
+.metier__body__slider {
+  background-color: rgba(109, 157, 197, 0.08);
+  width: 60%;
+  height: 90%;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.metier__body__slider__calendar {
+  width: 50%;
+  height: 100%;
+  background: rgba(109, 157, 197, 0.08);
+  border-radius: 30px 0 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.calendar__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(13, 33, 73, 0.8);
+  margin-bottom: 1rem;
+}
+.metier__body__slider__input {
+  width: 50%;
+  height: 100%;
+  background: rgba(109, 157, 197, 0.08);
+  border-radius: 0 30px 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.calendar__button {
+  background-color: #ee6352;
+  border-radius: 20px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.calendar__input {
+  width: 70%;
+  height: 4.5rem;
+  background-color: rgba(217, 217, 217, 0.7);
+  margin: 1.5rem;
+  border: none;
+  border-radius: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
